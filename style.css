@@ -115,44 +115,4 @@ img {
   .card-transform {
     transform: translateY(0);
   }
-  /* .header {
-    width: 65%;
-    font-size: 20px;
-  } */
-  /* .card {
-    grid-template-columns: 1fr;
-    grid-auto-rows: auto;
-    max-width: 300px;
-    padding: 25px 25px 25px 25px;
-  }
-  .card h3 {
-    font-size: 15px;
-    margin-bottom: 3px;
-  }
-
-  .card p {
-    font-size: 10px;
-    margin: 0 30px 45px 0;
-  }
-
-  .card-lightblue {
-    margin: 60%;
-    padding: 10%;
-    padding-left: 20%;
-    padding-right: 20%;
-    justify-self: center;
-  }
-  .card-red {
-    padding-bottom: 40px;
-  }
-  .card-orange {
-    margin: 5%;
-  }
-  .card-blue {
-    margin: 60%;
-    padding: 10%;
-    padding-left: 20%;
-    padding-right: 20%;
-    justify-self: center;
-  }*/
-}
+ 
