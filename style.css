@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Outfit:wght@100;400&family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*Primary*/
+
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+
+  /*Neutral*/
+
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--Very-Light-Gray);
+}
+
+.header {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 500px;
+}
+
+.header p {
+  padding: 10px;
+}
+
+h1 {
+  font-weight: 200;
+  margin: 20px 0;
+}
+
+h1 span {
+  font-weight: 600;
+}
+
+p {
+  color: var(--Grayish-Blue);
+  max-width: 520px;
+  margin: auto;
+}
+
+.main {
+  margin-top: 60px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 14px 20px -5px rgb(0, 0, 0, 0.3);
+  width: 360px;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 7px;
+  position: relative;
+  color: var(--Very-Dark-Blue);
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.card p {
+  font-size: 15px;
+  margin-block-start: 10px;
+  padding-bottom: 50px;
+  margin-bottom: 10px;
+}
+
+.card-lightblue {
+  border-top: 5px solid var(--Cyan);
+}
+
+.card-red {
+  border-top: 5px solid var(--Red);
+}
+
+.card-orange {
+  border-top: 5px solid var(--Orange);
+}
+
+.card-blue {
+  border-top: 5px solid var(--Blue);
+}
+
+.card-transform {
+  transform: translateY(50%);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .card-transform {
+    transform: translateY(0);
+  }
+  /* .header {
+    width: 65%;
+    font-size: 20px;
+  } */
+  /* .card {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    max-width: 300px;
+    padding: 25px 25px 25px 25px;
+  }
+  .card h3 {
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+
+  .card p {
+    font-size: 10px;
+    margin: 0 30px 45px 0;
+  }
+
+  .card-lightblue {
+    margin: 60%;
+    padding: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-self: center;
+  }
+  .card-red {
+    padding-bottom: 40px;
+  }
+  .card-orange {
+    margin: 5%;
+  }
+  .card-blue {
+    margin: 60%;
+    padding: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-self: center;
+  }*/
+}
